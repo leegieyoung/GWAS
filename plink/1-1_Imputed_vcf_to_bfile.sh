@@ -5,9 +5,7 @@ if [ $# -ne 2 ];then
 fi
 #Sample = AD_14 등으로 기록되어있어야 함
 Sample=$1
-Start=$2
-count=1
-End=$((Start+count))
+Chrom=$2
 
 GWAS_path="/scratch/x1997a11/GWAS/pdxen_AD/result_folder"
 code_path="/scratch/x1997a11/GWAS/pdxen_AD/Code_folder"
@@ -26,19 +24,11 @@ mkdir ${result_folder}/QC
 mkdir ${result_folder}/MaMi
 
 #
-for Chrom in $(seq $Start $End)
-do
-echo 'vcf to bfile'
+echo ''${Chrom}_'vcf to '${Chrom}_'bfile'
 cp -v ${beagle_folder}/imputed_${Sample}/CHR${Chrom}_${Sample}_noIndel_rmDupID_beagle.vcf.gz ${Sample_folder}/CHR${Chrom}_${Sample}_noIndel_rmDupID_beagle.vcf.gz
 plink --vcf ${Sample_folder}/CHR${Chrom}_${Sample}_noIndel_rmDupID_beagle.vcf.gz  --make-bed --keep-allele-order --double-id --out ${result_folder}/raw_merge/NoQC_CHR${Chrom}_${Sample}
-done
 
 #rmIDdot
-for Chrom in $(seq $Start $End)
-do
-echo 'rmIDdot'
+echo ''${Chrom}_'rmIDdot'
 awk '$2 != "." && $5 != "." && $6 != "." {print $2}' ${result_folder}/raw_merge/NoQC_CHR${Chrom}_${Sample}.bim > ${result_folder}/raw_merge/NoQC_rmIDdot_CHR${Chrom}_${Sample}.txt
 plink --bfile ${result_folder}/raw_merge/NoQC_CHR${Chrom}_${Sample} --extract ${result_folder}/raw_merge/NoQC_rmIDdot_CHR${Chrom}_${Sample}.txt --make-bed --keep-allele-order --out ${result_folder}/raw_merge/NoQC_rmIDdot_CHR${Chrom}_${Sample}
-done
-
-
