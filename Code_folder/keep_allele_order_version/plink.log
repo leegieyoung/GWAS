@@ -1,0 +1,12 @@
+PLINK v1.90b6.18 64-bit (16 Jun 2020)
+Options in effect:
+  --vcf
+
+Hostname: login03
+Working directory: /scratch/x1997a11/GWAS/pdxen_AD/Code_folder/keep_allele_order_version
+Start time: Tue Jun  8 17:30:09 2021
+
+Error: Missing --vcf parameter.
+For more information, try "plink --help <flag name>" or "plink --help | more".
+
+End time: Tue Jun  8 17:30:09 2021
