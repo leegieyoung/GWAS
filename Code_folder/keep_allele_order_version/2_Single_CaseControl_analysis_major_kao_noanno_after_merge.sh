@@ -22,7 +22,7 @@ mkdir ${analysis_folder}/merge
 #=========What is Code ? =======================================
 echo "${code_path}/2_Single_CaseControl_analysis_major_kao.sh" > ${analysis_folder}/merge/Used_2_Single_CaseControl_analysis_major_kao.sh
 
-plink --bfile ${Sample_folder}/MaMi/QC_${Sample} \
+plink --bfile ${Sample_folder}/MaMi/rmmissnp_QC_${Sample} \
  --keep-allele-order \
  --assoc \
  --out ${analysis_folder}/merge/raw_${Sample}_assoc
@@ -34,7 +34,7 @@ awk '$9 != "NA" {print $0}' ${analysis_folder}/merge/raw_${Sample}_assoc.assoc |
 
 #==========================================================
 
-plink --bfile ${Sample_folder}/MaMi/QC_${Sample} \
+plink --bfile ${Sample_folder}/MaMi/rmmissnp_QC_${Sample} \
  --extract ${analysis_folder}/merge/extract_SNP_list.txt \
  --keep-allele-order \
  --make-bed \
@@ -110,11 +110,12 @@ awk '{print $1, $2, $4, $5, $6, $7 ,$8 ,$9 ,$10 ,$11, $12, $13}' ${analysis_fold
 
 plink --bfile ${analysis_folder}/merge/raw_${Sample}_NoNA \
  --covar ${analysis_folder}/merge/logistic.convar_mds.txt \
- --logistic beta\
+ --logistic \
  --sex \
  --keep-allele-order \
  --hide-covar \
  --ci 0.95 \
+ --beta \
  --out ${analysis_folder}/merge/logistic/raw_${Sample}_NoNA_assoc
 
 awk '!/'NA'/' ${analysis_folder}/merge/logistic/raw_${Sample}_NoNA_assoc.assoc.logistic > ${analysis_folder}/merge/logistic/${Sample}_NoNA_assoc.assoc.logistic

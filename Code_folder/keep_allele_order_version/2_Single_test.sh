@@ -17,10 +17,6 @@ predixcan_folder="/scratch/x1997a11/GWAS/PrediXcan/MetaXcan-master/software"
 Reference_folder="/scratch/x1997a11/REFERENCE"
 #=================================================================
 
-#================MaMi-MaMi
-mkdir ${analysis_folder}/merge
-#=========What is Code ? =======================================
-
 #anno
 mkdir ${analysis_folder}/merge/logistic/anno
 
@@ -33,8 +29,7 @@ plink --bfile ${analysis_folder}/merge/${Sample}_NoNA \
 #chr
 awk '{print $1}'  ${analysis_folder}/merge/logistic/anno/${Sample}_NoNA_freq.frq.cc > ${analysis_folder}/merge/logistic/anno/${Sample}_NoNA.chr
 #rsID
-awk '{print $3}' ${analysis_folder}/merge/logistic/anno/nohead_merge_Imputed_AD_199_NoNA.vcf > ${analysis_folder}/merge/logistic/anno/${Sample}_NoNA.rsID
-sed -i '1i\rsID' ${analysis_folder}/merge/logistic/anno/${Sample}_NoNA.rsID
+awk '{print $2}' ${analysis_folder}/merge/logistic/raw_${Sample}_NoNA_assoc.assoc.logistic > ${analysis_folder}/merge/logistic/anno/${Sample}_NoNA.rsID
 #A1-A2
 awk '{print $3, $4}' ${analysis_folder}/merge/logistic/anno/${Sample}_NoNA_freq.frq.cc > ${analysis_folder}/merge/logistic/anno/${Sample}_NoNA.A1-A2
 #beta
@@ -83,7 +78,7 @@ awk '{print $2, $3, $4, $5, $6}' ${analysis_folder}/merge/logistic/predixcan/raw
 grep  '^rs' ${analysis_folder}/merge/logistic/predixcan/raw_rmsemi_rmchr_chr${A}_${Sample}.predixcan > ${analysis_folder}/merge/logistic/predixcan/chr${A}_${Sample}.predixcan
 sed -i '1i\rsID\tA1\tA2\tBETA\tP' ${analysis_folder}/merge/logistic/predixcan/chr${A}_${Sample}.predixcan
 gzip -f ${analysis_folder}/merge/logistic/predixcan/chr${A}_${Sample}.predixcan
-rm ${analysis_folder}/merge/logistic/predixcan/raw*
+#rm ${analysis_folder}/merge/logistic/predixcan/raw*
 done
 
 python ${predixcan_folder}/SPrediXcan.py \

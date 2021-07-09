@@ -1,0 +1,314 @@
+mkdir: cannot create directory ‘/scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder’: File exists
+INFO - Processing GWAS command line parameters
+INFO - Building beta for chr10_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr10_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+/home01/x1997a11/.conda/envs/predixcan/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:1997: RuntimeWarning: invalid value encountered in greater
+  cond1 = (0 < q) & (q < 1)
+/home01/x1997a11/.conda/envs/predixcan/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:1997: RuntimeWarning: invalid value encountered in less
+  cond1 = (0 < q) & (q < 1)
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr11_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr11_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr12_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr12_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr13_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr13_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr14_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr14_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr15_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr15_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr16_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr16_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr17_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr17_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr18_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr18_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr19_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr19_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr1_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr1_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr20_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr20_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr21_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr21_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr22_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr22_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr2_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr2_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr3_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr3_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr4_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr4_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr5_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr5_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr6_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr6_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr7_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr7_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr8_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr8_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr9_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr9_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Successfully parsed input gwas in 15.094458083040081 seconds
+INFO - Started metaxcan process
+INFO - Loading model from: /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
+INFO - Loading covariance data from: /scratch/x1997a11/REFERENCE/prediXcan/covar_gtex/gtex_v7_Whole_Blood_imputed_eur_covariances.txt.gz
+INFO - Processing loaded gwas
+INFO - Started metaxcan association
+WARNING - Issues processing gene ENSG00000048162.15, skipped
+WARNING - Issues processing gene ENSG00000188051.6, skipped
+WARNING - Issues processing gene ENSG00000237550.4, skipped
+INFO - 10 % of model's snps found so far in the gwas study
+INFO - 20 % of model's snps found so far in the gwas study
+INFO - 30 % of model's snps found so far in the gwas study
+INFO - 40 % of model's snps found so far in the gwas study
+INFO - 50 % of model's snps found so far in the gwas study
+INFO - 60 % of model's snps found so far in the gwas study
+INFO - 70 % of model's snps found so far in the gwas study
+INFO - 80 % of model's snps found so far in the gwas study
+INFO - 90 % of model's snps found so far in the gwas study
+INFO - 96 % of model's snps used
+INFO - Sucessfully processed metaxcan association in 52.447423493955284 seconds
+INFO - Processing GWAS command line parameters
+INFO - Building beta for chr10_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr10_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+/home01/x1997a11/.conda/envs/predixcan/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:1997: RuntimeWarning: invalid value encountered in greater
+  cond1 = (0 < q) & (q < 1)
+/home01/x1997a11/.conda/envs/predixcan/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:1997: RuntimeWarning: invalid value encountered in less
+  cond1 = (0 < q) & (q < 1)
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr11_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr11_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr12_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr12_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr13_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr13_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr14_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr14_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr15_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr15_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr16_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr16_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr17_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr17_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr18_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr18_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr19_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr19_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr1_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr1_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr20_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr20_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr21_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr21_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr22_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr22_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr2_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr2_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr3_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr3_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr4_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr4_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr5_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr5_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr6_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr6_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr7_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr7_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr8_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr8_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Building beta for chr9_Imputed_ADNI_JBB_1_blood_347.predixcan.gz and /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Reading input gwas with special handling: //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_1_blood_347_analysis_folder/merge/logistic/predixcan/chr9_Imputed_ADNI_JBB_1_blood_347.predixcan.gz
+INFO - Processing input gwas
+WARNING - Some GWAS snp zscores are not finite.
+INFO - Aligning GWAS to models
+INFO - Trimming output
+INFO - Successfully parsed input gwas in 12.432593557983637 seconds
+INFO - Started metaxcan process
+INFO - Loading model from: /scratch/x1997a11/REFERENCE/prediXcan/weights/gtex_v7_Brain_Putamen_basal_ganglia_imputed_europeans_tw_0.5_signif.db
+INFO - Loading covariance data from: /scratch/x1997a11/REFERENCE/prediXcan/covar_gtex/gtex_v7_Brain_Putamen_basal_ganglia_imputed_eur_covariances.txt.gz
+INFO - Processing loaded gwas
+INFO - Started metaxcan association
+WARNING - Issues processing gene ENSG00000013016.10, skipped
+WARNING - Issues processing gene ENSG00000227456.3, skipped
+INFO - 10 % of model's snps found so far in the gwas study
+INFO - 20 % of model's snps found so far in the gwas study
+INFO - 30 % of model's snps found so far in the gwas study
+INFO - 40 % of model's snps found so far in the gwas study
+INFO - 50 % of model's snps found so far in the gwas study
+INFO - 60 % of model's snps found so far in the gwas study
+INFO - 70 % of model's snps found so far in the gwas study
+INFO - 80 % of model's snps found so far in the gwas study
+INFO - 90 % of model's snps found so far in the gwas study
+INFO - 96 % of model's snps used
+INFO - Sucessfully processed metaxcan association in 36.15279634098988 seconds
