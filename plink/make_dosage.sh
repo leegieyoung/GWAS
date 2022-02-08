@@ -41,7 +41,8 @@ plink --bfile ${result_folder}/MaMi/QC_Imputed_${Sample} \
  --out ${result_folder}/dosage/raw_QC_Imputed_${Sample}
 
 grep -v "^##" ${result_folder}/dosage/raw_QC_Imputed_${Sample}.vcf > ${result_folder}/dosage/QC_Imputed_${Sample}.vcf
-cat ${result_folder}/dosage/QC_Imputed_${Sample}.vcf | colrm 1 9 > ${result_folder}/dosage/raw_QC_Imputed_${Sample}.dosage
+awk '$1=$2=$3=$4=$5=$6=$7=$8=$9=""; {print $0}' ${result_folder}/dosage/QC_Imputed_${Sample}.vcf > ${result_folder}/dosage/onlysample_QC_Imputed_${Sample}.vcf
+cat ${result_folder}/dosage/onlysample_QC_Imputed_${Sample}.vcf | colrm 1 9 > ${result_folder}/dosage/raw_QC_Imputed_${Sample}.dosage
 sed -i -e 's/0\/0/0/g' -e 's/0\/1/1/g' -e 's/1\/1/2/g' ${result_folder}/dosage/raw_QC_Imputed_${Sample}.dosage
 paste -d ' ' ${result_folder}/dosage/QC_Imputed_${Sample}_freq.frq ${result_folder}/dosage/raw_QC_Imputed_${Sample}.dosage > ${result_folder}/dosage/QC_Imputed_${Sample}.dosage
 
@@ -52,4 +53,11 @@ grep -w "^${A}" ${result_folder}/dosage/QC_Imputed_${Sample}.dosage > ${result_f
 cat ${result_folder}/dosage/dosage.head ${result_folder}/dosage/raw_QC_Imputed_chr${A}_${Sample}.dosage > ${result_folder}/dosage/QC_Imputed_chr${A}_${Sample}.dosage
 yes n | gzip ${result_folder}/dosage/QC_Imputed_chr${A}_${Sample}.dosage
 done
+
+rm ${result_folder}/dosage/*.dosage
+rm ${result_folder}/dosage/raw*
+rm ${result_folder}/dosage/*.log
+rm ${result_folder}/dosage/*.frq
+rm ${result_folder}/dosage/*.vcf
+rm ${result_folder}/dosage/*.head
 
